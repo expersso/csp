@@ -3,4 +3,5 @@
 .RData
 .Ruserdata
 inst/doc
-/data-raw
+/data-raw/*.dta
+/data-raw/*.docx
