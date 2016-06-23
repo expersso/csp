@@ -24,7 +24,7 @@ Suggested citation:
 > (IPPSR).
 
 The package allows the user to load and work with the dataset using the R
-programming language.
+programming language. 
 
 ## Example use
 

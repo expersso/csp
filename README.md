@@ -41,14 +41,14 @@ csp[1:2, ]
     ## 1 1900 AK       2  Alaska          2          81 pollib_median  <NA>
     ## 2 1900 AL       1 Alabama          1          41 pollib_median  <NA>
     ##                                 var_desc       dates
-    ## 1 State Policy Liberalism Score  Median 1936  2014
-    ## 2 State Policy Liberalism Score  Median 1936  2014
+    ## 1 State Policy Liberalism Score - Median 1936 - 2014
+    ## 2 State Policy Liberalism Score - Median 1936 - 2014
     ##                                                                                                                                                                  var_long_desc
     ## 1 Relying on a dynamic latent-variable model to model 148 policies collected over eight decades, the authors produce a yearly measure of the policy liberalism of U.S. states.
     ## 2 Relying on a dynamic latent-variable model to model 148 policies collected over eight decades, the authors produce a yearly measure of the policy liberalism of U.S. states.
     ##                                                                                                                                                                                                                                                     sources_notes
-    ## 1 Caughey, Devin, and Christopher Warshaw. 2015. The Dynamics of State Policy Liberalism, 19362014. American Journal of Political Science, September. doi: 10.1111/ajps.12219. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZXZMJB
-    ## 2 Caughey, Devin, and Christopher Warshaw. 2015. The Dynamics of State Policy Liberalism, 19362014. American Journal of Political Science, September. doi: 10.1111/ajps.12219. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZXZMJB
+    ## 1 Caughey, Devin, and Christopher Warshaw. 2015. "The Dynamics of State Policy Liberalism, 1936-2014." American Journal of Political Science, September. doi: 10.1111/ajps.12219. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZXZMJB
+    ## 2 Caughey, Devin, and Christopher Warshaw. 2015. "The Dynamics of State Policy Liberalism, 1936-2014." American Journal of Political Science, September. doi: 10.1111/ajps.12219. https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZXZMJB
     ##               topic
     ## 1 I. POLICY OUTPUTS
     ## 2 I. POLICY OUTPUTS
