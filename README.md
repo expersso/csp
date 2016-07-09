@@ -71,4 +71,4 @@ ggplot(df, aes(x = year, y = value, color = state)) +
 Disclaimer
 ----------
 
-This package is not affiliated with, nor endorsed by, the Correlates of State Policy Project. All credit go to the original authors, and questions should be directed to them. Please check the [official website](http://http://ippsr.msu.edu/public-policy/correlates-state-policy) for further details on citations, etc.
+This package is not affiliated with, nor endorsed by, the Correlates of State Policy Project. All credit go to the original authors, and questions should be directed to them. Please check the [official website](http://ippsr.msu.edu/public-policy/correlates-state-policy) for further details on citations, etc.
