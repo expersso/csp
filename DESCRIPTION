@@ -1,16 +1,23 @@
 Package: csp
 Type: Package
-Title: Correlates of State Policy Dataset in R
-Version: 0.1.0
-Date: 2016-06-23
+Title: Correlates of State Policy Data Set
+Version: 0.2.0
+Date: 2016-07-12
 Authors@R: person("Eric", "Persson", email = "expersso5@gmail.com",
     role = c("aut", "cre"))
-Description: Provides the Correclates of State Policy dataset for easy use in R.
+Description: Provides the Correlates of State Policy data set, which includes
+    more than seven-hundred variables, with observations across the U.S. 50
+    states and time (1900 - 2016). These variables represent policy outputs or
+    political, social, or economic factors that may influence policy differences
+    across the states.
 License: CC0
-LazyData: TRUE
+LazyData: FALSE
+URL: http://ippsr.msu.edu/public-policy/correlates-state-policy
+  https://github.com/expersso/csp
 Suggests:
     knitr,
     rmarkdown,
     ggplot2
 VignetteBuilder: knitr
+Depends: R (>= 2.10)
 RoxygenNote: 5.0.1
