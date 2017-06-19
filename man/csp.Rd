@@ -4,7 +4,7 @@
 \name{csp}
 \alias{csp}
 \title{Correlates of State Policy Dataset}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4385745 rows and 13 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5507541 rows and 13 columns.}
 \usage{
 csp
 }
@@ -26,4 +26,3 @@ names(csp)
 csp[1:2, ]}
 }
 \keyword{datasets}
-

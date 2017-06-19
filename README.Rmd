@@ -17,11 +17,7 @@ dataset, which
 > short description > of the variable, the variable time frame, a longer
 > description of the variable, > and the variable source(s) and notes.
 
-Suggested citation: 
-
-> Jordan, Marty P. and Matt Grossmann. 2016. The Correlates of State Policy
-> Project v.1.0. East Lansing, MI: Institute for Public Policy and Social Research
-> (IPPSR).
+See website above for suggested citation.
 
 The package allows the user to load and work with the dataset using the R 
 programming language. Crucially, it incorporates the entire codebook into the
