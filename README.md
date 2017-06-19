@@ -1,3 +1,5 @@
+[![Travis-CI Build Status](https://travis-ci.org/expersso/csp.svg?branch=master)](https://travis-ci.org/expersso/csp) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/csp)](https://cran.r-project.org/package=csp) [![CRAN\_Logs\_Badge](http://cranlogs.r-pkg.org/badges/grand-total/csp)](https://cran.r-project.org/package=csp)
+
 Introduction
 ------------
 

@@ -17,7 +17,8 @@ URL: http://ippsr.msu.edu/public-policy/correlates-state-policy
 Suggests:
     knitr,
     rmarkdown,
-    ggplot2
+    ggplot2,
+    testthat
 VignetteBuilder: knitr
 Depends: R (>= 2.10)
 RoxygenNote: 6.0.1
