@@ -1,8 +1,8 @@
 Package: csp
 Type: Package
 Title: Correlates of State Policy Data Set
-Version: 0.3.0
-Date: 2017-06-19
+Version: 0.4.0
+Date: 2017-09-19
 Authors@R: person("Eric", "Persson", email = "expersso5@gmail.com",
     role = c("aut", "cre"))
 Description: Provides the Correlates of State Policy data set, which includes

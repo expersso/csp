@@ -1,13 +1,13 @@
-[![Travis-CI Build Status](https://travis-ci.org/expersso/csp.svg?branch=master)](https://travis-ci.org/expersso/csp) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/csp)](https://cran.r-project.org/package=csp) [![CRAN\_Logs\_Badge](http://cranlogs.r-pkg.org/badges/grand-total/csp)](https://cran.r-project.org/package=csp)
-
 Introduction
 ------------
 
-This package contains the [Correlates of State Policy](http://ippsr.msu.edu/public-policy/correlates-state-policy) dataset, which
+This package contains the [Correlates of State Policy](http://ippsr.msu.edu/public-policy/correlates-state-policy) dataset version 1.11, which
 
 > ... includes more than seven-hundred variables, with observations across the U.S. 50 &gt; states and time (1900 – 2016). These variables represent policy outputs or &gt; political, social, or economic factors that may influence policy differences &gt; across the states. The codebook includes the variable name, a short description &gt; of the variable, the variable time frame, a longer description of the variable, &gt; and the variable source(s) and notes.
 
-See website above for suggested citation.
+Suggested citation:
+
+> Jordan, Marty P. and Matt Grossmann. 2016. The Correlates of State Policy Project v.1.0. East Lansing, MI: Institute for Public Policy and Social Research (IPPSR).
 
 The package allows the user to load and work with the dataset using the R programming language. Crucially, it incorporates the entire codebook into the dataset, which allows for easier filtering, finding units and sources, etc.
 
