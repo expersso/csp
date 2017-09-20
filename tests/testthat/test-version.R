@@ -10,7 +10,7 @@ test_that("Current package version is still latest versions", {
       html_attr("href")
   }
 
-  expected_filename <- "correlatesofstatepolicyprojectv1_10.dta"
+  expected_filename <- "correlatesofstatepolicyprojectv1_11.dta"
   current_filename <- basename(get_file_url(".dta"))
   expect_equal(expected_filename, current_filename)
 })
