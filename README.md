@@ -1,15 +1,42 @@
 Introduction
 ------------
 
-This package contains the [Correlates of State Policy](http://ippsr.msu.edu/public-policy/correlates-state-policy) dataset version 1.11, which
+Since the Correlates of State Policy project now provides their data in
+an easy-to-use CSV file, this package is deprecated. To read the data
+into R, just use:
 
-> ... includes more than seven-hundred variables, with observations across the U.S. 50 &gt; states and time (1900 – 2016). These variables represent policy outputs or &gt; political, social, or economic factors that may influence policy differences &gt; across the states. The codebook includes the variable name, a short description &gt; of the variable, the variable time frame, a longer description of the variable, &gt; and the variable source(s) and notes.
+``` r
+uri <- "http://ippsr.msu.edu/sites/default/files/correlatesofstatepolicyprojectv2_1.csv"
+csp <- read.csv(uri)
+str(csp)
+```
+
+See [their
+website](http://ippsr.msu.edu/public-policy/correlates-state-policy) for
+up-to-date information.
+
+This package contains the [Correlates of State
+Policy](http://ippsr.msu.edu/public-policy/correlates-state-policy)
+dataset version 1.11, which
+
+> … includes more than seven-hundred variables, with observations across
+> the U.S. 50 &gt; states and time (1900 – 2016). These variables
+> represent policy outputs or &gt; political, social, or economic
+> factors that may influence policy differences &gt; across the states.
+> The codebook includes the variable name, a short description &gt; of
+> the variable, the variable time frame, a longer description of the
+> variable, &gt; and the variable source(s) and notes.
 
 Suggested citation:
 
-> Jordan, Marty P. and Matt Grossmann. 2016. The Correlates of State Policy Project v.1.0. East Lansing, MI: Institute for Public Policy and Social Research (IPPSR).
+> Jordan, Marty P. and Matt Grossmann. 2016. The Correlates of State
+> Policy Project v.1.0. East Lansing, MI: Institute for Public Policy
+> and Social Research (IPPSR).
 
-The package allows the user to load and work with the dataset using the R programming language. Crucially, it incorporates the entire codebook into the dataset, which allows for easier filtering, finding units and sources, etc.
+The package allows the user to load and work with the dataset using the
+R programming language. Crucially, it incorporates the entire codebook
+into the dataset, which allows for easier filtering, finding units and
+sources, etc.
 
 Example use
 -----------
@@ -20,30 +47,9 @@ library(ggplot2)
 
 data(csp, package = "csp")
 dim(csp)
-```
-
-    ## [1] 5507541      13
-
-``` r
 names(csp)
-```
-
-    ##  [1] "year"          "st"            "stateno"       "state"        
-    ##  [5] "state_fips"    "state_icpsr"   "variable"      "value"        
-    ##  [9] "topic"         "var_desc"      "dates"         "var_long_desc"
-    ## [13] "sources_notes"
-
-``` r
 csp[1:2, ]
 ```
-
-    ## # A tibble: 2 x 13
-    ##    year    st stateno  state state_fips state_icpsr      variable value
-    ##   <dbl> <chr>   <dbl>  <chr>      <dbl>       <dbl>         <chr> <dbl>
-    ## 1  1900    AK       2 Alaska          2          81 pollib_median   NaN
-    ## 2  1901    AK       2 Alaska          2          81 pollib_median   NaN
-    ## # ... with 5 more variables: topic <chr>, var_desc <chr>, dates <chr>,
-    ## #   var_long_desc <chr>, sources_notes <chr>
 
 ``` r
 df <- subset(csp, variable == "real2_pc_inc_quar")
@@ -58,9 +64,11 @@ ggplot(df, aes(x = year, y = value, color = state)) +
        subtitle = df$var_long_desc[1])
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-2-1.png)
-
 Disclaimer
 ----------
 
-This package is not affiliated with, nor endorsed by, the Correlates of State Policy Project. All credit go to the original authors, and questions should be directed to them. Please check the [official website](http://ippsr.msu.edu/public-policy/correlates-state-policy) for further details on citations, etc.
+This package is not affiliated with, nor endorsed by, the Correlates of
+State Policy Project. All credit go to the original authors, and
+questions should be directed to them. Please check the [official
+website](http://ippsr.msu.edu/public-policy/correlates-state-policy) for
+further details on citations, etc.

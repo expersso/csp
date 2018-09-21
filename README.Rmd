@@ -4,7 +4,24 @@ output:
     variant: markdown_github
 ---
 
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+```
+
 ## Introduction
+
+Since the Correlates of State Policy project now provides their data in an
+easy-to-use CSV file, this package is deprecated. To read the data into R, just
+use:
+
+```{r}
+uri <- "http://ippsr.msu.edu/sites/default/files/correlatesofstatepolicyprojectv2_1.csv"
+csp <- read.csv(uri)
+str(csp)
+```
+
+See [their website](http://ippsr.msu.edu/public-policy/correlates-state-policy) 
+for up-to-date information.
 
 This package contains the [Correlates of State
 Policy](http://ippsr.msu.edu/public-policy/correlates-state-policy) 
